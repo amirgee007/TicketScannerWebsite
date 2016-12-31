@@ -21,7 +21,7 @@ class AppController extends Controller
     {
         return view('pages/event/add');
     }
-    public function app()
+    public function appLaunch()
     {
         return view('pages/app');
     }

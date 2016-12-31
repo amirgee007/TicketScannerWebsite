@@ -42,7 +42,7 @@
                                 href="{{ action("Auth\RegisterController@register") }}">Register</a></li>
                 @else
                     <li role="presentation" class="{{ Request::is('app') ? 'active' : '' }}"><a
-                                href="{{ action("PagesController@app") }}">App</a></li>
+                                href="{{ action("AppController@appLaunch") }}">App</a></li>
                     <li role="presentation"><a
                                 href="{{ url('/logout') }}"
                                 onclick="event.preventDefault();

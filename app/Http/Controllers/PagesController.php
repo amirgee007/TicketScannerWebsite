@@ -24,6 +24,9 @@ class PagesController extends Controller
     {
         return view('pages/about');
     }
-
+    public function app()
+    {
+        return view('pages/app');
+    }
 
 }
